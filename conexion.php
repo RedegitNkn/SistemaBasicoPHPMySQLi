@@ -1,7 +1,8 @@
 <?php 
-    $usuario = "root";
-    $pass = "admin";
-    $server = "127.0.0.1";
+    //-- Escribir la credenciales necesarias y la dirección del servidor--//
+    $usuario = "";
+    $pass = "";
+    $server = "";
     $db = "evaluacion";
     $conexion= mysqli_connect($server,$usuario,$pass,$db);
       if (!$conexion) {
